@@ -207,6 +207,11 @@ body{
 #cnttexthome{
     text-align: center;
 }
+#bodyhome{
+    top: 2rem;
+    position: relative;
+    z-index: 0;
+}
 .frame{
     height: 7rem;
     width: 100%;
@@ -228,4 +233,9 @@ body{
     height: 2.5rem;
     background-color: #222;
     color: #7b7878;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%; 
+    z-index: 1;
 }
